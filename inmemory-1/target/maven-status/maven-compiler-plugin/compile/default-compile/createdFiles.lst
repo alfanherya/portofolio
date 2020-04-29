@@ -1,0 +1,4 @@
+com\herya\inmemory\InMemoryJmsApplication.class
+com\herya\inmemory\resource\ProducerResource.class
+com\herya\inmemory\listener\Consumer.class
+com\herya\inmemory\config\Config.class
