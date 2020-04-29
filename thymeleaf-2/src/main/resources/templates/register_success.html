@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Registration Success</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <script src="/javascripts/jquery-1.10.2.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-lg">
+                            <div class="p-5">
+                               <form class="user">
+                                    <fieldset>
+                                        <div align="center">
+                                            <h2>Registration Succeeded!</h2>
+                                            <span>Full name:</span><span th:text="${user.name}"></span><br/>
+                                            <span>E-mail:</span><span th:text="${user.email}"></span><br/>
+                                            <span>Password:</span><span th:text="${user.password}"></span><br/>
+                                            <span>Gender:</span><span th:text="${user.gender}"></span><br/>
+                                            <span>Profession:</span><span th:text="${user.profession}"></span><br/>
+                                            <span>Married?</span><span th:text="${user.married}"></span><br/>
+                                            <span>Note:</span><span th:text="${user.note}"></span><br/>
+
+                                        </div>
+                                    </fieldset>
+                               </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
