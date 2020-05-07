@@ -1,6 +1,7 @@
 # SpringBoot with AdminLTE 2
 ---
-
+nah untuk versi admin LTE ini akan coba aku update sesuai dengan yang aku inginkan nanti bentuknya dan bisa digunakan untuk apa saja.
+untuk sumber aku mendapatkan apps ini dari reponya mas handika, nanti akan aku edit karena ini masih bersifat open source
 Application with SpringBoot and the AdminLTE 2 template to facilitate development.
 
 
